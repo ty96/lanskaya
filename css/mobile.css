@@ -1,0 +1,35 @@
+@media (max-width: 1080px) {
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+  }
+
+  .contact {
+    height: 1000px;
+  }
+
+  .contact .box {
+    display: block;
+  }
+
+  .contact .box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact .boxes {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contact .box {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .contact .box:hover img {
+    width: 60px;
+    height: 60px;
+  }
+}
