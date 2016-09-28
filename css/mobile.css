@@ -69,6 +69,10 @@
     width: 2px;
     height: 18px;
   }
+
+  .text .article {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -126,6 +130,20 @@
 
   .navBar .about {
     left: 0;
+  }
+
+  .navBar .option .type {
+    height: 100px;
+    padding: 10px 0;
+  }
+
+  .navBar .option .type p {
+    line-height: 18px;
+  }
+
+  .option .type img {
+    height: 80px;
+    width: 80px;
   }
 
   .figure {

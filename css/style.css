@@ -322,6 +322,7 @@
 .text {
   max-width: 960px;
   margin: 120px auto;
+  min-height: 500px;
 }
 .text h1 {
   color: #149143;
@@ -347,4 +348,28 @@
   background: #149143;
   margin: 20px 0;
   font-size: 24px;
+}
+
+.text img {
+  display: block;
+  width: 80%;
+  max-width: 280px;
+  margin: 20px auto;
+}
+
+.text .title {
+  color: black;
+  text-align: center;
+}
+
+.text .article {
+  text-indent: 2em;
+  font-size: 18px;
+}
+
+.text .divide {
+  height: 1px;
+  width: 100%;
+  background: #149143;
+  margin: 40px 0;
 }
