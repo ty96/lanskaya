@@ -7,7 +7,10 @@
 
   var curPage = 1;
   var amount = images.children.length;
-  var unit = '16.666666';
+  var unit = '14.285714';
+
+  var firstPic = images.children[0].cloneNode(true);
+  images.appendChild(firstPic);
 
   function turnTo(num) {
     var range = unit * (1 - num);
@@ -51,5 +54,5 @@
     } else {
       turnTo(curPage + 1);
     }
-  }, 2500)
+  }, 5000)
 }();
