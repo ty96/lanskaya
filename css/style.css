@@ -145,6 +145,18 @@
   display: block;
 }
 
+.navBar #aboutHover:hover #about {
+  display: block;
+}
+
+.navBar #brandHover:hover #brand {
+  display: block;
+}
+
+.navBar #furHover:hover #fur {
+  display: block;
+}
+
 /*figures*/
 .figure {
   width: 100%;
@@ -171,6 +183,7 @@
   border-radius: 50%;
   top: 50%;
   right: 30px;
+  margin-top: -15px;
   position: absolute;
   cursor: pointer;
   z-index: 998;
@@ -262,20 +275,18 @@
 
 .main .figure {
   width: 75%;
-  height: 450px;
   display: inline-block;
   max-width: 75%;
   position: relative;
 }
 
 .main .figure .container {
-  width: 5600px;
+  width: 700%;
   transition: all 1000ms ease;
 }
 
 .main .figure .container img {
-  height: 450px;
-  width: auto;
+  width: 14.285714%;
   display: inline-block;
 }
 
